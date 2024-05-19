@@ -3,14 +3,14 @@ import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who).catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
-let biografia = await conn.fetchStatus('573012482597' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
-let biografiaBot = await conn.fetchStatus('573012482694' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografia = await conn.fetchStatus('59897246324' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografiaBot = await conn.fetchStatus('59897246324' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
 let bio = biografia.status?.toString() || 'Sin Biografía'
 let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('573012482597'+'@s.whatsapp.net')}`, `👑 Propietario`, team, 'argumedod44@gmail.com', `🇨🇴 Colombia`, `https://www.youtube.com/@Yoshiko_team`, bio],
+     [`${nomorown}`, `${await conn.getName('59897246324'+'@s.whatsapp.net')}`, `🔮 creador`, team, 'argumedod44@gmail.com', `🇦🇷 Argentina`, `https://www.youtube.com/@Yoshiko_team`, bio],
 [`${conn.user.jid.split('@')[0]}`, `𝗘𝘀 𝗨𝗻𝗮 𝗕𝗼𝘁 🌺`, `${await conn.getName(conn.user.jid)}`, `📵 No Hacer Spam`, 'theyoshikobot@gmail.com', `🇨🇴 Colombia`, `https://github.com/Diego-YL-177/YoshikoBot-MD`, biobot]
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
