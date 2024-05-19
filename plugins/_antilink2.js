@@ -20,7 +20,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       if (m.text.includes(linkThisGroup2)) return !0;
       if (m.text.includes(linkThisGroup3)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `*「 𝘼𝙉𝙏𝙄 𝙇𝙄𝙉𝙆𝙎 」*\n𝙃𝙖𝙨𝙩𝙖 𝙡𝙖 𝙫𝙞𝙨𝙩𝙖 𝙗𝙖𝙗𝙮 👋 ${user} 𝙧𝙤𝙢𝙥𝙞𝙨𝙩𝙚 𝙡𝙖𝙨 𝙧𝙚𝙜𝙡𝙖𝙨 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙨𝙚𝙧𝙖𝙨 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙙𝙤...!!*`, mentions: [m.sender]}, {quoted: m});
+    await this.sendMessage(m.chat, {text: `*「 𝘼𝙉𝙏𝙄 𝙇𝙄𝙉𝙆𝙎 」*\n𝙃𝙖𝙨𝙩𝙖 𝙡𝙖 𝙫𝙞𝙨𝙩𝙖 𝙗𝙖𝙗𝙮 👋 ${user} 𝙧𝙤𝙢𝙥𝙞𝙨𝙩𝙚 𝙡𝙖𝙨 𝙧𝙚𝙜𝙡𝙖𝙨 𝙙𝙚𝙡 𝙜𝙧𝙪𝙥𝙤, 𝙨𝙚𝙧𝙖𝙨 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙙𝙤...!!`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('🔮 𝙀𝙡 𝙗𝙤𝙩 𝙣𝙤 𝙚𝙨 𝙖𝙙𝙢𝙞𝙣, 𝙉𝙤 𝙥𝙪𝙚𝙙𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧 𝙖𝙡𝙖𝙨 𝙥𝙚𝙧𝙨𝙤𝙣𝙖𝙨');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
