@@ -17,7 +17,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
       if (m.text.includes(linkThisGroup)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `*「 𝐀𝐍𝐓𝐈 𝐋𝐈𝐍𝐊𝐒 」*\n*𝙷𝙰𝚂𝚃𝙰 𝙻𝙰 𝚅𝙸𝚂𝚃𝙰 𝙱𝙰𝙱𝚈 👋 ${user} 𝚁𝙾𝙼𝙿𝙸𝚂𝚃𝙴𝚂 𝙻𝙰𝚂 𝚁𝙴𝙶𝙻𝙰𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾, 𝚂𝙴𝚁𝙰𝚂 𝙴𝚇𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙳𝙾...!!*`, mentions: [m.sender]}, {quoted: m});
+    await this.sendMessage(m.chat, {text: `「 𝘼𝙉𝙏𝙄 𝙇𝙄𝙉𝙆𝙎 」*\n𝙃𝙖𝙨𝙩𝙖 𝙡𝙖 𝙫𝙞𝙨𝙩𝙖 𝙗𝙖𝙗𝙮 👋 ${user} 𝚁𝙾𝙼𝙿𝙸𝚂𝚃𝙴𝚂 𝙻𝙰𝚂 𝚁𝙴𝙶𝙻𝙰𝚂 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾, 𝚂𝙴𝚁𝙰𝚂 𝙴𝚇𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙳𝙾...!!*`, mentions: [m.sender]}, {quoted: m});
     if (!isBotAdmin) return m.reply('🔮 𝙀𝙡 𝙗𝙤𝙩 𝙣𝙤 𝙚𝙨 𝙖𝙙𝙢𝙞𝙣, 𝙉𝙤 𝙥𝙪𝙚𝙙𝙚 𝙚𝙭𝙥𝙪𝙡𝙨𝙖𝙧 𝙖𝙡𝙖𝙨 𝙥𝙚𝙧𝙨𝙤𝙣𝙖𝙨');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
