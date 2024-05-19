@@ -60,7 +60,7 @@ global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
 global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
 global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
-global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.tiempo = d.toLocaleString('es-ar', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮`;
 global.gt = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
