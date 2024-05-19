@@ -2,7 +2,7 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, args, usedPrefix, command}) => {
-  if (!args[0]) throw `𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚 𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙙𝙚 𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢. 𝙀𝙟𝙚𝙢𝙥𝙡𝙤 ${usedPrefix + command} usxr_angelito*`;
+  if (!args[0]) throw `𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚 𝙪𝙣 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙙𝙚 𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢. 𝙀𝙟𝙚𝙢𝙥𝙡𝙤 ${usedPrefix + command} usxr_angelito`;
   const res = await igstalk(args[0].replace(/^@/, ''));
   const res2 = await fetch(`https://api.lolhuman.xyz/api/stalkig/${args[0].replace(/^@/, '')}?apikey=${lolkeysapi}`);
   const res3 = await res2.json();
