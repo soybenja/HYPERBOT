@@ -5,11 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-let oi = `*@ventas_bot_ludmi* ${pesan}`
-let teks = `*ACTIVENSE PLANTAS*\n\n${oi}\n*𝙼𝙴𝙽𝙲𝙸𝙾𝙽𝙴𝚂*\n`
-for (let mem of participants) {
-teks += `💋➤ @${mem.id.split('@')[0]}\n`}
-teks += `LudmiBot`
+  const oi = `*${participants.length} Participantes* ${pesan}`;
+  let teks = `*😎𝐅𝐀𝐂𝐇𝐀𝐒 𝐀𝐂𝐓𝐈𝐕𝐄𝐍𝐒𝐄 𝐎 𝐂𝐔𝐏𝐎*\n\n ${oi}\n\n- ̗̀  😝 𝐅𝐮𝐭𝐮𝐫𝐨𝐬 𝐜𝐮𝐩𝐨𝐬 !\n`;
+  for (const mem of participants) {
+    teks += `🔮➤ @${mem.id.split('@')[0]}\n`;
+  }
+  teks += `*└* 𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 🔮\n\n*🔮*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
