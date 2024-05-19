@@ -10,7 +10,7 @@ let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
 let name = await conn.getName(who)
 
   await sendContactArray(conn, m.chat, [
-     [`${nomorown}`, `${await conn.getName('59897246324'+'@s.whatsapp.net')}`, `🔮 creador`, team, 'agasistencia2@gmail.com', `🇦🇷 Argentina`, `https://www.instagram.com/usxr_angelito`, bio],
+     [`${nomorown}`, `${await conn.getName('59897246324'+'@s.whatsapp.net')}`, `🔮 creador`
 ], m)
   //m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
