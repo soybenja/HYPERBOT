@@ -34,7 +34,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Karim-off/RubyBot-MD && cd RubyBot-MD 
+git clone https://github.com/Karim-off/XiaBot-MD && cd XiaBot-MD 
 ```
 ```bash
 yarn install
