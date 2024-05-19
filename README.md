@@ -71,6 +71,6 @@ termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 
-### 💜 CREADOR 
+### 🔮 CREADOR 
 [![Karim-off](https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
 > Copyright (c) 2024 **[Karim-off](https://github.com/Karim-off/LuckyBot-MD/blob/master/LICENSE)**.
