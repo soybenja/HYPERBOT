@@ -2,9 +2,9 @@
 
 >● 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
 
-### 🔮𝙍𝙪𝙗𝙮𝘽𝙤𝙩-𝙈𝘿 
+### 🔮𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 
 <p align="center">
-<img src="https://telegra.ph/file/e45df07db50884c59d20f.jpg" alt="RubyBot-MD" width="900"/>
+<img src="https://telegra.ph/file/39b0aa3fe324550a3000a.jpg" alt="XiaBot-MD" width="900"/>
 </p>
 
 ### 🔮 RUBYBOT-MD 🔮
