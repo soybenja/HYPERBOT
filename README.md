@@ -7,7 +7,7 @@
 <img src="https://telegra.ph/file/39b0aa3fe324550a3000a.jpg" alt="XiaBot-MD" width="900"/>
 </p>
 
-### 🔮 XIABOT-MD 🔮
+### 🔮 XIA BOT-MD 🔮
 
 ### CONTACTOS 💻
 <p>
