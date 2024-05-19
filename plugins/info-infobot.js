@@ -40,9 +40,9 @@ const cpu = cpus.reduce((last, cpu, _, { length }) => {
   })
 const { restrict } = global.db.data.settings[conn.user.jid] || {}
 const { autoread } = global.opts
-let pp = gataMenu
+let pp = xiaMenu
 //let grupos = [nna, nn, nnn, nnntt]
-//let gata = [img5, img6, img7, img8, img9]
+//let xia = [img5, img6, img7, img8, img9]
 //let enlace = { contextInfo: { externalAdReply: {title: wm + ' ', body: 'support group' , sourceUrl: accountsgb, thumbnail: await(await fetch(gataMenu)).buffer() }}}
 //let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: md, thumbnailUrl: await(await fetch(gataMenu)).buffer(), sourceUrl: accountsgb }}}
 //let dos = [enlace, enlace2]
