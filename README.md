@@ -10,7 +10,7 @@ HㅤYㅤPㅤEㅤRㅤ´ㅤVㅤㅤㅤㅤㅤㅤBㅤOㅤT
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-### <img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" alt="🎌 Prueba El Bot Aqui" width="50" height="42"> HyperV : Bot
+### <img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" alt="🎌 Prueba El Bot Aqui" width="50" height="100"> HyperV : Bot
 
 > PRUEBA  𝑯𝒚𝒑𝒆𝒓𝑽 EN EL GRUPO OFICIAL DE WHATSAPP
 
