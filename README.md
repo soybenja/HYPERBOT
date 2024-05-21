@@ -2,12 +2,12 @@
 
 >● 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
 
-### 🔮𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 
+### 🔮HYPER´V BOT 
 <p align="center">
-<img src="https://telegra.ph/HYPERV-BOT-05-21" alt="XiaBot-MD" width="900"/>
+<img src="https://telegra.ph/HYPERV-BOT-05-21" alt="HYPER´V BOT" width="900"/>
 </p>
 
-### 🔮 XIA BOT-MD 🔮
+### 🔮 HYPER´V BOT 🔮
 
 ### CONTACTOS 💻
 <p>
