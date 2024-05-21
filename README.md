@@ -1,80 +1,94 @@
->● 🔮𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 3.2.0 
+## ＨｙｐｅｒＶ ／ Ｃｒｅａｄｏ ｐｏｒ ＠ｂｏｙｂｅｎｊｘ７
 
->● 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
+<p align="center">
+<img src="https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn" alt="𝑯𝒚𝒑𝒆𝒓'𝑽" width="900"/>
+</p>
 
-### 🔮HYPER´V BOT 
 <a href="https://instagram.com/boybenjx7">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-<p align="center">
-<img src="https://telegra.ph/HYPERV-BOT-05-21" alt="HYPER´V BOT" width="900"/>
-</p>
+### <img src="https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> HyperV : Bot
 
-### 🔮 HYPER´V BOT 🔮
+> PRUEBA  𝑯𝒚𝒑𝒆𝒓𝑽 EN EL GRUPO OFICIAL DE WHATSAPP
 
-### CONTACTOS 💻
-<p>
+<a href="https://chat.whatsapp.com/DXAdja6QqGsEqMtuTJNTXn"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-𝑯𝒚𝒑𝒆𝒓'𝑽-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+***
 
- <a href="http://www.instagram.com/usxr_angelito" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
-<a href="https://api.whatsapp.com/send/?phone=59897246324&text=Hola 👋 soporte de Xia Bot &type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+- #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄𝒂 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
+![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge)
+> Escribe Estos Comandos Para Instalar HyperV De Forma Automatica
 
-</p> 
-
-
-
-😃𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖
-
-
-
-
-### 👨‍💻 INSTALACIÓN TERMUX
-> **Note** Comandos para instalar de forma manual en termux o otra app
 ```bash
 termux-setup-storage
 ```
 ```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+
 ```
+
+- #### 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊𝒐𝒏 Manual 𝑯𝒚𝒑𝒆𝒓𝑽 (𝑻𝒆𝒓𝒎𝒖𝒙)
+![blog](https://img.shields.io/badge/Instalacion-Manual-FF0000?style=for-the-badge)
+> Escribe Estos Comandos Para Instalar HyperV Paso Por Paso
+
 ```bash
-git clone https://github.com/Karim-off/XiaBot-MD && cd XiaBot-MD 
+termux-setup-storage
 ```
+
 ```bash
-yarn install
+apt-get update -y && apt-get upgrade -y
 ```
+
 ```bash
-npm install
+pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
+```
+
+```bash
+git clone https://github.com/boybenjx7/HyperV && cd HyperV && yarn install && npm install
+```
+
+```bash
+ls
 ```
 ```bash
 npm update
 ```
+
 ```bash
 npm start
 ```
-> **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 
-* #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
-* #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Note** Guardar los archivos en la ubicación: storage/downloads/RubyBot-MD-master/RubyBot-MD-master   
-----
-### 💟 USAR RUBY 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta RubyBot-MD
+- #### Activar HyperV En Caso De Detenerse (Termux)
+> ESCRIBE ESTOS COMANDOS UNO POR UNO:
 ```bash
-termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+> cd
+> cd HyperV
+> npm start
 ```
 
-### 💬 DUDAS DEL BOT 
-<a href="http://wa.me/59897246324" target="blank"><img src="https://img.shields.io/badge/KARIM_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-### 🤖 GRUPO DE SOPORTE
-<a href="https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-### 📄 CANAL DE WHATSAPP
-<a href="https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y" target="blank"><img src="https://img.shields.io/badge/CANAL_DE_BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
+- #### Adquirir Otro Codigo Qr HyperV
+> 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙴𝚂𝚃𝙾𝚂 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝚄𝙽𝙾 𝙿𝙾𝚁 𝚄𝙽𝙾:
+```bash
+> cd HyperV
+> rm -rf sessions
+> npm start
+```
 
 
-### 🔮 CREADOR 
+> ESTOS COMANDOS SOLO FUNCIONAN PARA TERMUX, REPLIT, LINUX
+
+----
+- ### Instalacion Por Code Dpace:
+
+[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
+***
+
+
+### EDITOR Y PROPIETARIO DEL BOT
+<a href="https://github.com/boybenjx7"><img src="https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn" width="250" height="250" alt="@BOYBENJX7"/></a>
+
+
+###  COLABORADOR
 [![Karim-off](https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
-> Copyright (c) 2024 **[Karim-off](https://github.com/Karim-off/LuckyBot-MD/blob/master/LICENSE)**.
+> Copyright (c) 2024 **[Karim-off](https://github.com/Karim-off/blob/master/LICENSE)**.
+
