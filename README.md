@@ -4,7 +4,7 @@
 
 ### 🔮𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 
 <p align="center">
-<img src="https://telegra.ph/HYPERV-BOT-05-21.jpg" alt="XiaBot-MD" width="900"/>
+<img src="https://telegra.ph/HYPERV-BOT-05-21" alt="XiaBot-MD" width="900"/>
 </p>
 
 ### 🔮 XIA BOT-MD 🔮
