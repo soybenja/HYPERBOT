@@ -1,4 +1,3 @@
-<p align="center">
 ## H Y P E R ´ VㅤㅤㅤB O T
 
 <p align="center">
