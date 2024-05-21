@@ -1,7 +1,7 @@
 ## ＨｙｐｅｒＶ ／ Ｃｒｅａｄｏ ｐｏｒ ＠ｂｏｙｂｅｎｊｘ７
 
 <p align="center">
-<img src="https://telegra.ph/hyperbot-05-21" alt="𝑯𝒚𝒑𝒆𝒓'𝑽" width="900"/>
+<img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" alt="𝑯𝒚𝒑𝒆𝒓'𝑽" width="900"/>
 </p>
 
 <a href="https://instagram.com/boybenjx7">
