@@ -1,5 +1,5 @@
 <p align="center">
-### HㅤYㅤPㅤEㅤRㅤ´ㅤVㅤㅤㅤㅤㅤㅤBㅤOㅤT
+HㅤYㅤPㅤEㅤRㅤ´ㅤVㅤㅤㅤㅤㅤㅤBㅤOㅤT
 
 <p align="center">
 <img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" alt="𝑯𝒚𝒑𝒆𝒓'𝑽" width="900"/>
@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
 
-### <img src="https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> HyperV : Bot
+### <img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" alt="🎌 Prueba El Bot Aqui" width="42" height="42"> HyperV : Bot
 
 > PRUEBA  𝑯𝒚𝒑𝒆𝒓𝑽 EN EL GRUPO OFICIAL DE WHATSAPP
 
