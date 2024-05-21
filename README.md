@@ -11,7 +11,7 @@ HㅤYㅤPㅤEㅤRㅤ´ㅤVㅤㅤㅤㅤㅤㅤBㅤOㅤT
 </a>
 
 <p align="center">
-GRUPO OFICIAL DE HYPER´V BOT
+*GRUPO OFICIAL DE HYPER´V BOT*
 
 <p align="center">
 <a href="https://chat.whatsapp.com/DXAdja6QqGsEqMtuTJNTXn"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/GRUPO-HYPER´V BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
