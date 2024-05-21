@@ -9,9 +9,7 @@ HㅤYㅤPㅤEㅤRㅤ´ㅤVㅤㅤㅤㅤㅤㅤBㅤOㅤT
 <a href="https://instagram.com/boybenjx7">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
-ㅤ
-ㅤ
-ㅤ
+
 <p align="center">
 GRUPO OFICIAL DE HYPER´V BOT
 
