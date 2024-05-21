@@ -3,6 +3,10 @@
 >● 🔮𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
 
 ### 🔮HYPER´V BOT 
+<a href="https://instagram.com/boybenjx7">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a>
+
 <p align="center">
 <img src="https://telegra.ph/HYPERV-BOT-05-21" alt="HYPER´V BOT" width="900"/>
 </p>
