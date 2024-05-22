@@ -1,27 +1,27 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙷𝙾𝙻𝙰 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 👋🏻, 𝚃𝙴 𝙸𝙽𝚅𝙸𝚃𝙾 𝙰 𝚄𝙽𝙸𝚁𝚃𝙴 𝙰 𝙻𝙾𝚂 𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂 𝙳𝙴𝙻 𝙱𝙾𝚃*
+  const text = `*🧸𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙏𝙀 𝙄𝙉𝙑𝙄𝙏𝘼 𝘼𝙃 𝙐𝙉𝙄𝙍𝙏𝙀 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇*
 
-*➤ 𝙶𝚛𝚞𝚙𝚘 𝚘𝚏𝚒𝚌𝚒𝚊𝚕𝚎𝚜 𝚍𝚎𝚕 𝙱𝚘𝚝:*
-*1.-* https://chat.whatsapp.com/KtyGuKlic5w9xlw8DJlSFD`.trim();
+*┣・ 𝙂𝙍𝙐𝙋𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝘿𝙀 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏:*
+*┣・* https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg`.trim();
   const buttonMessage= {
-    'document': {url: `https://www.instagram.com/ceogeripium.dzn`},
+    'document': {url: `https://www.instagram.com/boybenjx7`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    'fileName': `「  𝘾𝙍𝙀𝘼𝘿𝙊𝙍: 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://www.instagram.com/ceogeripium.dzn',
+        'mediaUrl': 'https://www.instagram.com/boybenjx7',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
+        'title': '𝙃𝙔𝙋𝙀𝙍´𝙑 𝙀𝙇 𝙈𝙀𝙅𝙊𝙍 𝘽𝙊𝙏 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋⁩',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://www.instagram.com/ceogeripium.dzn'}},
+        'sourceUrl': 'https://www.instagram.com/boybenjx7'}},
     'caption': text,
     'footer': wm,
     'headerType': 6};
