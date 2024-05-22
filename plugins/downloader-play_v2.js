@@ -6,7 +6,7 @@ let fileName;
 let apiUrl;
 let enviando = false;
 const handler = async (m, { command, usedPrefix, conn, text }) => {
-  if (!text) throw `❗𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 + 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉𝘼 𝘾𝘼𝙉𝘾𝙄𝙊𝙉\n\n*—◉ Ejemplo 1:*\n*${usedPrefix + command}* Good Feeling - Flo Rida\n*—◉ Ejemplo 2:*\n*${usedPrefix + command}* https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p`;
+  if (!text) throw `❗𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 + 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉𝘼 𝘾𝘼𝙉𝘾𝙄𝙊𝙉\n\n*—◉ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 1:*\n*${usedPrefix + command}* 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 - 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉\n*—◉ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 2:*\n*${usedPrefix + command}* https://youtu.be/...`;
 if (enviando) return;
     enviando = true
   try {
@@ -102,7 +102,7 @@ import yts from 'yt-search';
 import ytdl from 'ytdl-core';
 import axios from 'axios';
 const handler = async (m, {command, usedPrefix, conn, text}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙵𝙰𝙻𝚃𝙰𝙽𝚃𝙴, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙼𝙰𝚂 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴/𝚃𝙸𝚃𝚄𝙻𝙾 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽𝙰 𝙲𝙰𝙽𝙲𝙸𝙾𝙽 𝙾 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚈𝙾𝚄𝚃𝚄𝙱𝙴*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`;
+  if (!text) throw `*❗𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 + 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝘼𝙇𝙂𝙐𝙉𝘼 𝘾𝘼𝙉𝘾𝙄𝙊𝙉*\n\n*—◉ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 1:*\n*${usedPrefix + command} 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 - 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉*`;
   try {
     if (command == 'play.1') {
       conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m);
@@ -111,7 +111,7 @@ const handler = async (m, {command, usedPrefix, conn, text}) => {
         const audiocore = mediaa.result2?.[0]?.audio || mediaa.result2?.[1]?.audio || mediaa.result2?.[2]?.audio || null;
         const aa = await conn.sendMessage(m.chat, {audio: {url: audiocore}, fileName: `error.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
         if (!aa) {
-        throw new Error('*[❗] El primero metodo fallo, intentando otro...*');
+        throw new Error('❗*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙏𝙀 𝙋𝙄𝘿𝙀 𝘿𝙄𝙎𝘾𝙐𝙇𝙋𝘼𝙎, 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙁𝘼𝙇𝙇𝙊, 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍𝙀𝙈𝙊𝙎 𝘾𝙊𝙉 𝙊𝙏𝙍𝙊');
        }        
       } catch {
         const res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`);
@@ -124,18 +124,18 @@ const handler = async (m, {command, usedPrefix, conn, text}) => {
       conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ...⏳_*`, m);
       try {
         const mediaa = await ytPlayVid(text);
-        const aa_2 = await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
+        const aa_2 = await conn.sendMessage(m.chat, {video: {url: mediaa.result}, fileName: `error.mp4`, caption: `_𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏_`, thumbnail: mediaa.thumb, mimetype: 'video/mp4'}, {quoted: m});
         if (!aa_2) {
-        throw new Error('*[❗] El primero metodo fallo, intentando otro...*');
+        throw new Error('❗*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙏𝙀 𝙋𝙄𝘿𝙀 𝘿𝙄𝙎𝘾𝙐𝙇𝙋𝘼𝙎, 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙁𝘼𝙇𝙇𝙊, 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍𝙀𝙈𝙊𝙎 𝘾𝙊𝙉 𝙊𝙏𝙍𝙊');
        }
       } catch {
         const res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`);
         const json = await res.json();
-        await conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, m);
+        await conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏_`, m);
       }
     }
   } catch {
-    throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*';
+    throw '❗*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙏𝙀 𝙋𝙄𝘿𝙀 𝘿𝙄𝙎𝘾𝙐𝙇𝙋𝘼𝙎, 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝙁𝘼𝙇𝙇𝙊, 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙇𝙊 𝘿𝙀 𝙉𝙐𝙀𝙑𝙊';
   }
 };
 handler.help = ['play.1', 'play.2'].map((v) => v + ' <texto>');
