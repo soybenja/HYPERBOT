@@ -6,13 +6,13 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   const name = await conn.getName(m.sender);
   const donar =`
 *┏ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
-*┇          「 COMPRAR 」*
+*┣・🧸          「 COMPRAR 」*
 *┣ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
-*┃ 𝙷𝙾𝙻𝙰 ${name}*
+*┣・🧸 𝙃𝙔𝙋𝙀𝙍´𝙑 𝙏𝙀 𝙎𝘼𝙇𝙐𝘿𝘼 ${name}*
 *┃*
-*┃ 👉🏻 SI DESEAS COMPRAR ESTE BOT HABLA A LOS SIGUIENTES NUMEROS*
-*┃ https://walink.co/62efd1*
-*┃ https://walink.co/6ecb77*
+*┣・🧸 𝙎𝙄 𝘿𝙀𝙎𝙀𝘼𝙎 𝘼𝘿𝙌𝙐𝙄𝙍𝙄𝙍 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙀𝙉 𝙏𝙐𝙎 𝙂𝙍𝙐𝙋𝙊𝙎, 𝙃𝘼𝘽𝙇𝘼 𝘼 𝙇𝙊𝙎 𝙎𝙄𝙂𝙐𝙄𝙀𝙉𝙏𝙀𝙎 𝙉𝙐𝙈𝙀𝙍𝙊𝙎:*
+*┣・ https://walink.co/8cfe71*
+*┣・ https://walink.co/8cfe71*
 *┗ ┅ ━━━━━━━━━━━━━━━━━ ┅ ━*
 `.trim();
   const aa = {quoted: m, userJid: conn.user.jid};
