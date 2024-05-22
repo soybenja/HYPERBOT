@@ -312,7 +312,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) loadDatabase();
   if (update.qr != 0 && update.qr != undefined) {
-    console.log(chalk.yellow('🚩ㅤMichiBot te pide que escanees este codigo QR, porque expira en 60 segundos.'));
+    console.log(chalk.yellow('🚩ㅤHYPER´V BOT te pide que escanees este codigo QR, porque expira en 60 segundos.'));
   }
   if (connection == 'open') {
     console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'));
@@ -380,14 +380,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-conn.welcome = '-------------------------------------------------\n𝐋𝐮𝐝𝐦𝐢𝐁𝐨𝐭\n│HOLA @user\n│▢𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢NUMERO DE MI PROPIETARIO\nwa.me/5492915267624\n│▢NUMERO DE MI CREADOR\n│https://wa.me/56954390663\n│▢📚EN ESTE GRUPO PODRAS ENCONTRAR\n│▢🍀AMISTADES\n│▢🤝AMIGOS\n│▢📚DESMADRE\n│▢😇ᩭCOTORREO Y MAS\n│▢AVISO IMPORTANTE:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘\n@desc\n𝐋𝐮𝐝𝐦𝐢𝐁𝐨𝐭\n-------------------------------------------------'
-conn.bye = '-------------------------------------------------\n@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\nMichiBot\n-------------------------------------------------'
-conn.spromote = '*𝐋𝐔𝐃𝐌𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄  @user 𝐒𝐄 𝐒𝐔𝐌𝐀 𝐀𝐋 𝐆𝐑𝐔𝐏𝐎 𝐃𝐄 𝐀𝐃𝐌𝐈𝐍𝐒*\n\n*𝐀𝐃𝐌𝐈𝐍𝐒 𝐆𝐑𝐎𝐔𝐏 𝐉𝐎𝐈𝐍𝐒!!*'
-conn.sdemote = '*𝐋𝐔𝐃𝐌𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄 @user 𝐀𝐁𝐀𝐍𝐃𝐎𝐍𝐀 𝐄𝐋 𝐆𝐑𝐔𝐏𝐎 𝐃𝐄 𝐀𝐃𝐌𝐈𝐍𝐒 !!\n\n*𝐀𝐁𝐀𝐍𝐃𝐎𝐍𝐄𝐃 𝐓𝐇𝐄 𝐀𝐃𝐌𝐈𝐍 𝐆𝐑𝐎𝐔𝐏*'
-conn.sDesc = '*𝐒𝐄 𝐇𝐀 𝐌𝐎𝐃𝐈𝐅𝐈𝐂𝐀𝐃𝐎 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎*\n\n *𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐂𝐇𝐀𝐍𝐆𝐄𝐃*\n*𝐍𝐔𝐄𝐕𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎𝐍:* @desc'
-conn.sSubject = '*𝐋𝐔𝐃𝐌𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄 𝐒𝐄 𝐇𝐀 𝐌𝐎𝐃𝐈𝐅𝐈𝐂𝐀𝐃𝐎 𝐄𝐋 𝐍𝐎𝐌𝐁𝐑𝐄 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎\n\n*𝐓𝐇𝐄 𝐍𝐀𝐌𝐄 𝐎𝐅 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐂𝐇𝐀𝐍𝐆𝐄𝐃*\n*𝐍𝐔𝐄𝐕𝐎 𝐍𝐎𝐌𝐁𝐑𝐄:* @subject'
-conn.sIcon = '*𝐋𝐔𝐃𝐌𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄 𝐒𝐄 𝐇𝐀 𝐂𝐀𝐌𝐁𝐈𝐀𝐃𝐎 𝐋𝐀 𝐅𝐎𝐓𝐎 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!!!*\n\n\n*𝐆𝐑𝐎𝐔𝐏 𝐏𝐇𝐎𝐓𝐎 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐂𝐇𝐀𝐍𝐆𝐄𝐃*'
-conn.sRevoke = '*𝐋𝐔𝐃𝐌𝐈 𝐁𝐎𝐓 𝐀𝐍𝐔𝐍𝐂𝐈𝐀 𝐐𝐔𝐄 𝐒𝐄 𝐇𝐀 𝐀𝐂𝐓𝐔𝐀𝐋𝐈𝐙𝐀𝐃𝐎 𝐄𝐋 𝐋𝐈𝐍𝐊 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎!!!\n\n*𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐋𝐈𝐍𝐊 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐔𝐏𝐃𝐀𝐓𝐄𝐃*\n*𝐋𝐈𝐍𝐊 𝐍𝐔𝐄𝐕𝐎:* @revoke'
+conn.welcome = '-------------------------------------------------\n❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏*\n┣・🧸𝙃𝙊𝙇𝘼𝘼𝘼 @user\n┣・🧸𝙏𝙀 𝘿𝘼𝙈𝙊𝙎 𝙇𝘼 𝘾𝙊𝙍𝘿𝙄𝘼𝙇 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝘼\n┣・🧸𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍\nwa.me/51936732723\n┣・🧸𝙏𝙀 𝙄𝙉𝙑𝙄𝙏𝙊 𝘼 𝙇𝙀𝙀𝙍 𝙇𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊:\n@desc\n┣・*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏*\n-------------------------------------------------'
+conn.bye = '-------------------------------------------------\n┣・🧸 @user\n┣・🧸𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙏𝙀 𝙃𝘼𝘾𝙀 𝙇𝘼 𝘾𝙊𝙍𝘿𝙄𝘼𝙇 𝘿𝙀𝙎𝙋𝙀𝘿𝙄𝘿𝘼 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊, 𝙃𝘼𝙎𝙏𝘼 𝙋𝙍𝙊𝙉𝙏𝙊🧸❤\n\n┣・ *𝙔𝘼 𝙉𝙊 𝙁𝙊𝙍𝙈𝘼𝙎 𝙋𝘼𝙍𝙏𝙀 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊*\n┣・ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏*\n-------------------------------------------------'
+conn.spromote = '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀  @user 𝙀𝙎 𝙐𝙉 𝙉𝙐𝙀𝙑𝙊 𝘼𝘿𝙈𝙄𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊\n\n*𝙔𝘼 𝙏𝙄𝙀𝙉𝙀𝙎 𝙇𝙊𝙎 𝙋𝙊𝘿𝙀𝙍𝙀𝙎 𝘿𝙀 𝘼𝘿𝙈𝙄𝙉*'
+conn.sdemote = '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀 @user 𝙔𝘼 𝙉𝙊 𝙀𝙎 𝙐𝙉 𝘼𝘿𝙈𝙄𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊\n\n*𝙔𝘼 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀𝙎 𝙇𝙊𝙎 𝙋𝙊𝘿𝙀𝙍𝙀𝙎 𝘿𝙀 𝘼𝘿𝙈𝙄𝙉*'
+conn.sDesc = '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀 𝙎𝙀 𝙈𝙊𝘿𝙄𝙁𝙄𝘾𝙊 𝙇𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊\n\n ✅𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊✅\n*𝙉𝙐𝙀𝙑𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉:* @desc'
+conn.sSubject = '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀 𝙎𝙀 𝙈𝙊𝘿𝙄𝙁𝙄𝘾𝙊 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊\n\n✅𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊✅\n*𝙉𝙐𝙀𝙑𝙊 𝙉𝙊𝙈𝘽𝙍𝙀:* @subject'
+conn.sIcon = '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀 𝙎𝙀 𝙈𝙊𝘿𝙄𝙁𝙄𝘾𝙊 𝙇𝘼 𝙁𝙊𝙏𝙊 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊\n\n\n*✅𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊✅*'
+conn.sRevoke = '*❗𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝘼𝙉𝙐𝙉𝘾𝙄𝘼 𝙌𝙐𝙀 𝙎𝙀 𝙃𝘼 𝘼𝘾𝙏𝙐𝘼𝙇𝙄𝙕𝘼𝘿𝙊 𝙀𝙇 𝙇𝙄𝙉𝙆 𝘿𝙀 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊\n\n✅𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊✅\n*𝙉𝙐𝙀𝙑𝙊 𝙇𝙄𝙉𝙆:* @revoke'
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
