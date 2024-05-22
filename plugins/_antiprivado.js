@@ -6,7 +6,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`🔮 𝙃𝙤𝙡𝙖 @${m.sender.split`@`[0]}, 𝙀𝙨𝙩𝙖 𝙥𝙧𝙤𝙝𝙞𝙗𝙞𝙙𝙤 𝙝𝙖𝙗𝙡𝙖𝙧 𝙖𝙡 𝙥𝙧𝙞𝙫𝙖𝙙𝙤 𝙙𝙚𝙡 𝙗𝙤𝙩 𝙪𝙣𝙚𝙩𝙚 𝙖𝙡 𝙜𝙧𝙪𝙥𝙤 𝙙𝙚 𝙨𝙤𝙥𝙤𝙧𝙩𝙚\n ${md}`, false, {mentions: [m.sender]});
+    await m.reply(`❗𝘽𝙊𝙉𝙄𝙏𝙊 𝘿𝙄𝘼 @${m.sender.split`@`[0]}, 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙏𝙄𝙀𝙉𝙀 𝙋𝙍𝙊𝙃𝙄𝘽𝙄𝘿𝙊 𝙀𝙇 𝘾𝙃𝘼𝙏 𝙋𝙍𝙄𝙑𝘼𝘿𝙊, 𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙐𝙎𝘼 𝙈𝙄𝙎 𝘾𝙊𝙈 𝙀𝙉 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇\n ${md}`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
