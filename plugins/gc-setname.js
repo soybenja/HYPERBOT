@@ -1,6 +1,6 @@
 import Presence from '@whiskeysockets/baileys';
 const handler = async (m, {conn, args, text}) => {
-  if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙰 𝚀𝚄𝙴 𝚂𝙴𝙰 𝙴𝙻 𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*`;
+  if (!text) throw `❗𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝙉𝙐𝙀𝙑𝙊 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙋𝘼𝙍𝘼 𝙌𝙐𝙀 *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙇𝙊 𝙈𝙊𝘿𝙄𝙁𝙄𝙌𝙐𝙀`;
   try {
     const text = args.join` `;
     if (!args || !args[0]) {
@@ -8,7 +8,7 @@ const handler = async (m, {conn, args, text}) => {
       conn.groupUpdateSubject(m.chat, text);
     }
   } catch (e) {
-    throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾 𝙷𝚄𝙱𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝙼𝙰𝚂 𝙳𝙴 𝟸𝟻 𝙲𝙰𝚁𝙰𝙲𝚃𝙴𝚁𝙴𝚂*';
+    throw '❗ *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝘿𝙀𝙏𝙀𝘾𝙏𝙊 𝙌𝙐𝙀 𝙀𝙎𝙏𝙀 𝙉𝙊𝙈𝘽𝙍𝙀 𝙏𝙄𝙀𝙉𝙀 +25 𝘾𝘼𝙍𝘼𝘾𝙏𝙀𝙍𝙀𝙎';
   }
 };
 handler.help = ['setname <text>'];
