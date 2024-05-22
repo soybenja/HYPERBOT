@@ -26,7 +26,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       if (responseb[0].status === '404') return;
-    } else if (!bot.restrict) return m.reply('🔮 𝙀𝙡 𝙥𝙧𝙤𝙥𝙞𝙚𝙩𝙖𝙧𝙞𝙤 𝙙𝙚𝙡 𝙗𝙤𝙩 𝙣𝙤 𝙩𝙞𝙚𝙣𝙚 𝙝𝙖𝙗𝙞𝙡𝙞𝙩𝙖𝙙𝙤 𝙡𝙖𝙨 𝙧𝙚𝙨𝙩𝙧𝙞𝙘𝙘𝙞𝙤𝙣𝙚𝙨 (#𝚎𝚗𝚊𝚋𝚕𝚎 𝚛𝚎𝚜𝚝𝚛𝚒𝚌𝚝) 𝙘𝙤𝙣𝙩𝙖𝙘𝙩𝙚 𝙘𝙤𝙣 𝙚𝙡 𝙥𝙖𝙧𝙖 𝙦𝙪𝙚 𝙡𝙤 𝙝𝙖𝙗𝙞𝙡𝙞𝙩𝙚');
+    } else if (!bot.restrict) return m.reply('❗𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙉𝙊 𝙋𝙐𝙀𝘿𝙀 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 𝙋𝙊𝙍𝙌𝙐𝙀 𝙈𝙄 𝘾𝙍𝙀𝘼𝘿𝙊𝙍 +51 936732723 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙃𝘼𝘽𝙄𝙇𝙄𝙏𝘼𝘿𝙊 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 .𝙍𝙀𝙎𝙏𝙍𝙄𝘾𝙏');
   }
   return !0;
 }
