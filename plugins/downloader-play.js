@@ -5,12 +5,12 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) throw `🔮𝙌𝙪𝙚 𝙚𝙨𝙩𝙖𝙨 𝙗𝙪𝙨𝙘𝙖𝙣𝙙𝙤 ?🔮\n𝙄𝙣𝙜𝙧𝙚𝙨𝙚 𝙚𝙡 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙡𝙖 𝙘𝙖𝙣𝙘𝙞𝙤𝙣 𝙮 𝙣𝙤𝙢𝙗𝙧𝙚 𝙙𝙚𝙡 𝙘𝙖𝙣𝙩𝙖𝙣𝙩𝙚\n\n*Ejemplo:*\n#play brattyputy yeri mua`
+if (!text) throw `¿𝙌𝙐𝙀 𝙋𝙇𝘼𝙔 𝙀𝙎𝙏𝘼𝙎 𝘽𝙐𝙎𝘾𝘼𝙉𝘿𝙊?\n𝙋𝙊𝙍𝙁𝘼𝙑𝙊𝙍 𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙔 𝘼𝙐𝙏𝙊𝙍 𝘿𝙀 𝙇𝘼 𝘾𝘼𝙉𝘾𝙄𝙊𝙉\n\n*𝙀𝙅𝙀𝙈𝙋𝙇𝙊:*\n#𝙋𝙇𝘼𝙔 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 - 𝘽𝙀𝙉𝙅𝘼𝙈𝙄𝙉`
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿'
+additionalText = '❗𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏❗'
 } else if (command === 'play2') {
 additionalText = 'video 🎥'}
 await conn.sendMessage(m.chat, {
@@ -79,7 +79,7 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*🙉 Aqui esta tu video*\n*🔥 Titulo: ${ttl}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `*🙉 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝙊 𝙏𝙐 𝙑𝙄𝘿𝙀𝙊*\n*🔥 Titulo: ${ttl}`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
