@@ -14,7 +14,7 @@ export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
 
   if (isToxic && chat.antiToxic && !isOwner && !isAdmin) {
     user.warn += 1;
-    if (!(user.warn >= 5)) await m.reply('*[❗] ' + `${user.warn == 1 ? `❗𝘽𝙊𝙉𝙄𝙏𝙊 𝘿𝙄𝘼 @${m.sender.split`@`[0]}` : `@${m.sender.split`@`[0]}`}, 𝘿𝙀𝘾𝙄𝙍 𝙇𝘼 𝙋𝘼𝙇𝘼𝘽𝙍𝘼 "${isToxic}" 𝙀𝙎𝙏𝘼 𝙋𝙍𝙊𝙃𝙄𝘽𝙄𝘿𝘼 𝙋𝙊𝙍 *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏*. 𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼: ${user.warn}/5.` + '*', false, {mentions: [m.sender]});
+    if (!(user.warn >= 5)) await m.reply('[❗] ' + `${user.warn == 1 ? `𝘽𝙊𝙉𝙄𝙏𝙊 𝘿𝙄𝘼 @${m.sender.split`@`[0]}` : `@${m.sender.split`@`[0]}`}, 𝘿𝙀𝘾𝙄𝙍 𝙇𝘼 𝙋𝘼𝙇𝘼𝘽𝙍𝘼 "${isToxic}" 𝙀𝙎𝙏𝘼 𝙋𝙍𝙊𝙃𝙄𝘽𝙄𝘿𝘼 𝙋𝙊𝙍 *𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏*. 𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼: ${user.warn}/5.` + '', false, {mentions: [m.sender]});
   }
 
   if (user.warn >= 5) {
