@@ -10,9 +10,9 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['59168683798', '𝘾𝙧𝙚𝙖𝙙𝙤𝙧🔮', true],
-  ['59897246324', '𝙓𝘽-𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼🔮', true],
-  ['59897246324', '𝙓𝘽-𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼🔮', true],
+  ['51936732723', '𝘾𝙍𝙀𝘼𝘿𝙊𝙍', true],
+  ['51936732723', '𝙃𝙔𝙋𝙀𝙍-𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼', true],
+  ['51936732723', '𝙃𝙔𝙋𝙀𝙍-𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼2', true],
   ['', '', true],
   ['', '', true],
   ['', '', true],
@@ -33,16 +33,16 @@ global.owner = [
   ['']
 ];
 
-global.suittag = ['59168683798'];
-global.prems = ['59168683798'];
+global.suittag = ['51936732723'];
+global.prems = ['51936732723'];
 
-global.packname = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.author = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.wm = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.titulowm = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.titulowm2 = `𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮`
-global.igfg = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.wait = '🔮 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.packname = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.author = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.wm = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.titulowm = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.titulowm2 = `𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏`
+global.igfg = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.wait = '🧸 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -62,15 +62,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('es-ar', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮`;
-global.gt = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.mysticbot = '𝙓𝙞𝙖𝘽𝙤𝙩-𝙈𝘿 🔮';
-global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.mysticbot = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y';
-global.fgbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.waitt = '🔮 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
-global.waittt = '🔮 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
-global.waitttt = '🔮 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏`;
+global.gt = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.mysticbot = '𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏';
+global.md = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
+global.mysticbot = 'https://chat.whatsapp.com/HZkPROh4Xg4D6gKwjiQXWg';
+global.fgbot = 'https://chat.whatsapp.com/DWJnzejkk4X5uPnTklp0FH';
+global.waitt = '🧸 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.waittt = '🧸 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
+global.waitttt = '🧸 𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤....';
 global.nomorown = '59168683798';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
