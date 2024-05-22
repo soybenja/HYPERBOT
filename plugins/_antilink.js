@@ -17,8 +17,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin}) {
       const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
       if (m.text.includes(linkThisGroup)) return !0;
     }
-    await this.sendMessage(m.chat, {text: `「 𝘼𝙉𝙏𝙄 𝙇𝙄𝙉𝙆𝙎 」*\n❗𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙏𝙀 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍Á ${user} 𝙋𝙊𝙍𝙌𝙐𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 .𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆 𝙀𝙎𝙏𝘼 𝘼𝘾𝙏𝙄𝙑𝘼𝘿𝙊`, mentions: [m.sender]}, {quoted: m});
-    if (!isBotAdmin) return m.reply('❗𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 𝙉𝙊 𝙀𝙎 𝙐𝙉 𝘼𝘿𝙈𝙄𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊, 𝙉𝙊 𝙋𝙐𝙀𝘿𝙊 𝙀𝙓𝙋𝙐𝙇𝙎𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊');
+    await this.sendMessage(m.chat, {text: `「 𝘼𝙉𝙏𝙄 𝙇𝙄𝙉𝙆𝙎 」*\n❗*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙏𝙀 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝙍Á ${user} 𝙋𝙊𝙍𝙌𝙐𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 .𝘼𝙉𝙏𝙄𝙇𝙄𝙉𝙆 𝙀𝙎𝙏𝘼 𝘼𝘾𝙏𝙄𝙑𝘼𝘿𝙊`, mentions: [m.sender]}, {quoted: m});
+    if (!isBotAdmin) return m.reply('❗*𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏* 𝙉𝙊 𝙀𝙎 𝙐𝙉 𝘼𝘿𝙈𝙄𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊, 𝙉𝙊 𝙋𝙐𝙀𝘿𝙊 𝙀𝙓𝙋𝙐𝙇𝙎𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊');
     if (isBotAdmin && bot.restrict) {
       await conn.sendMessage(m.chat, {delete: {remoteJid: m.chat, fromMe: false, id: bang, participant: delet}});
       const responseb = await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
