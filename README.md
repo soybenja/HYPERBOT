@@ -31,18 +31,6 @@ GRUPO CHAT DE HYPER´V BOT
 <p align="center">
 <a href="https://chat.whatsapp.com/DWJnzejkk4X5uPnTklp0FH"><img alt="🎌 Grupo WhatsApp" src="https://img.shields.io/badge/GRUPO CHAT-HYPER´V BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
-***
-
-
-> ESTOS COMANDOS SOLO FUNCIONAN PARA TERMUX, REPLIT, LINUX
-
-----
-- ### Instalacion Por Code Dpace:
-
-[`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=674862525&ref=main&geo=UsEast)
-***
-
-
 ### EDITOR Y PROPIETARIO DEL BOT
 <a href="https://github.com/boybenjx7"><img src="https://th.bing.com/th/id/OIG2.t6SMLw75Pp9ssDkcg_m7?pid=ImgGn" width="250" height="250" alt="@BOYBENJX7"/></a>
 
