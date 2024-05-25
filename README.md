@@ -33,7 +33,3 @@ GRUPO CHAT DE HYPER´V BOT
 
 ### EDITOR Y PROPIETARIO DEL BOT
 <a href="https://github.com/soybenja"><img src="https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn" width="250" height="250" alt="@BOYBENJX7"/></a>
-
-
-###  COLABORADOR
-[![Karim-off](https://th.bing.com/th/id/OIG2.2FNVUbDyKEPX8Gm0ONr2?pid=ImgGn)](https://github.com/soybenja) 
