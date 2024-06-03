@@ -541,7 +541,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🚀 𝙃𝙔𝙋𝙀𝙍´𝙑 𝘽𝙊𝙏 +51 936732723 ⦙⦙ 💻 𝙊𝙉𝙇𝙄𝙉𝙀 𝙁𝘼𝙎𝙏 ${uptime}`;
+  const bio = `🚀 TANY BOT +51 917 518 909 ⦙⦙ 💻 𝙊𝙉𝙇𝙄𝙉𝙀 𝙁𝘼𝙎𝙏 ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
